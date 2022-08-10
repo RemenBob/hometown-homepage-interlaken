@@ -1,0 +1,85 @@
+body {
+    text-align: center;
+    color: black;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    
+    
+
+}
+
+#hero {
+    color: white;
+    padding: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url("https://images.unsplash.com/photo-1605825856823-cabe105ab0af?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aW50ZXJsYWtlbnxlbnwwfHwwfHw%3D&w=1000&q=80");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#header {
+    background: #1D3557;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+#descrip {
+    background: #457B9D;
+    padding: 5px 10px;
+    border-radius: 10px;
+
+}
+
+#middle-section {
+    margin-top: 10px;
+    padding: 5% 8%;
+    display: flex;
+    justify-content: space-around;
+    background: #F1FAEE;
+
+}
+
+.width-section {
+    width: 25%;
+}
+
+.circular-img {
+    border-radius: 50%;
+}
+
+.reducing-width-img {
+    width: 150px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+#guide-card {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    margin: 50px auto 0;
+    background: #A8DADC; 
+    border-bottom: 5px solid black;
+    margin-bottom: 50px;
+}
+
+.italics {
+    font-style: italic;
+}
+
+#guide-img {
+    width: 25%;
+    line-height: 20%;
+    padding: 15px 20px 15px 15px;
+}
+
+#guide-text {
+    padding: 25px 40px;
+}
